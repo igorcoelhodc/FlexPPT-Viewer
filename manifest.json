@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "FlexPPT Viewer",
+  "version": "1.0",
+  "description": "Ultra-lightweight PPTX viewer optimized for old hardware.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "viewer.html",
+    "default_title": "Open PPTX"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
